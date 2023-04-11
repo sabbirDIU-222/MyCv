@@ -1,0 +1,88 @@
+/* Global styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Profile picture */
+
+.profile-pic {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.profile-pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.profile-pic {
+		width: 150px;
+		height: 150px;
+	}
+}
